@@ -10,8 +10,8 @@ function makeGrid(size=16){
     container.innerHTML= "";
     for (let i = 0; i < size * size; i++) {
     const square = document.createElement('div');
-    square.style.width = (200 / size) + 'px';
-    square.style.height = (200 / size) + 'px';
+    square.style.width = (600 / size) + 'px';
+    square.style.height = (600 / size) + 'px';
     square.classList.add('square');
     square.addEventListener('mouseover', () => {
         setPenColor(square);
